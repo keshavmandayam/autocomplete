@@ -1,2 +1,2 @@
-# autoocomplete
+# autocomplete
 Autocomplete demo project
