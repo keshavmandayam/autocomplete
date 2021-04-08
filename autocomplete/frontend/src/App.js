@@ -55,7 +55,7 @@ export default function AutoComplete() {
     <Typography variant="h5"
       style={{ width: 400, margin: "auto", marginTop: "10%" }}
     >
-            Is your favorite movie in the top 100?
+            Your favorite movie in the top 1000?
     </Typography>
     <Autocomplete
       id="asynchronous"
