@@ -8,7 +8,7 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import _ from 'lodash';
 
-export default function Asynchronous() {
+export default function AutoComplete() {
   const [open, setOpen] = React.useState(false);
   const [options, setOptions] = React.useState([]);
   const loading = open && options.length === 0;
@@ -58,7 +58,7 @@ export default function Asynchronous() {
             Is your favorite movie in the top 100?
     </Typography>
     <Autocomplete
-      id="asynchronous-demo"
+      id="asynchronous"
       style={{ width: 500, margin: "auto", marginTop: "2%" }}
       open={open}
       onOpen={() => {
