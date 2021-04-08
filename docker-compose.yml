@@ -1,0 +1,14 @@
+version: '3'
+services:
+  ui:
+    build: ./autocomplete/frontend
+    ports:
+      - 3000:3000
+    container_name: frontend
+    depends_on:
+      - api
+  api:
+    build: ./autocomplete
+    ports:
+      - 9000:9000
+    container_name: backend
